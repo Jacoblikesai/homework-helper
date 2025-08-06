@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework Helper</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Homework Helper</h1>
+  <form action="/process" method="post" enctype="multipart/form-data">
+    <label>Upload PDF file:</label><br>
+    <input type="file" name="file"><br><br>
+
+    <label>Or paste your homework text here:</label><br>
+    <textarea name="text_input" rows="10" cols="80" placeholder="Paste homework here..."></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
